@@ -1,3 +1,11 @@
+# Changes to 32bit:
+# 
+# 4-byte registers are replaces with 8 byte ones
+# movl is replaced with movq as registers are 8 bytes
+# System call number for exit is 60 compared to 1
+# Return Status is stored in rdi instead of ebx
+# 
+
 # PURPOSE: Program to illustrate how functions work
 # This program will compute the value of
 # 3^2
